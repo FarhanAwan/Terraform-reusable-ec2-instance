@@ -1,4 +1,3 @@
-# --- modules/variables.tf ---
 
 variable "instance_count" {
     type = number

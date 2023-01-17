@@ -1,4 +1,3 @@
-# --- root/main.tf ---
 
 provider "aws" {
   region = local.location

@@ -1,8 +1,8 @@
-# --- root/backends.tf ---
+
 
 terraform {
   cloud {
-    organization = "Michael-Cassidy"
+    organization = "farhanawan"
 
     workspaces {
       name = "aws-instance"

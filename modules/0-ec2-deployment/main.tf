@@ -1,4 +1,3 @@
-# --- modules/main.tf ---
 
 resource "aws_instance" "app_server" {
   ami           = data.aws_ssm_parameter.ec2-ami.value
